@@ -1,0 +1,25 @@
+{
+  "name": "alert-ay168",
+  "version": "1.0.1",
+  "description": "alert",
+  "main": "Gruntfil.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "canvas"
+  ],
+  "author": "ayuan",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-text-replace": "^0.4.0"
+  }
+}

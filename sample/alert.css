@@ -1,0 +1,48 @@
+/* 公共样式 */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td, a{ margin:0; padding:0; }
+ul, ol { list-style:none; }
+a { text-decoration:none;color:#000; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+table { border-collapse:collapse; border-spacing:0; }
+.clearfix:after{content:"";display:block;visibility:hidden;clear:both;height:0;}
+body {
+	background-color: rgba(0, 0, 0, .6);
+}
+
+.box {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	border: 0;
+	background-color: #fff;
+	transform: translate(-50%, -50%);
+	width: 80%;
+	max-width: 300px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+.title {
+	padding: 21px 26px 8px;
+}
+
+.content {
+	min-height: 40px;
+	font-size: 15px;
+	line-height: 15px;
+	color: #999;
+	padding: 0 24px 12px;
+}
+
+.foot {
+	color: #3cc51f;
+	line-height: 48px;
+	border-top: 1px solid #ccc;
+}
+
+.foot a {
+	color: #3CC51F;
+}
